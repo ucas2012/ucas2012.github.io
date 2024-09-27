@@ -1,0 +1,978 @@
+<!--
+ *                        _oo0oo_
+ *                       o8888888o
+ *                       88" . "88
+ *                       (| -_- |)
+ *                       0\  =  /0
+ *                     ___/`---'\___
+ *                   .' \\|     |// '.
+ *                  / \\|||  :  |||// \
+ *                 / _||||| -:- |||||- \
+ *                |   | \\\  - /// |   |
+ *                | \_|  ''\---/''  |_/ |
+ *                \  .-\__  '-'  ___/-. /
+ *              ___'. .'  /--.--\  `. .'___
+ *           ."" '<  `.___\_<|>_/___.' >' "".
+ *          | | :  `- \`.;`\ _ /`;.`/ - ` : | |
+ *          \  \ `_.   \_ __\ /__ _/   .-` /  /
+ *      =====`-.____`.___ \_____/___.-`___.-'=====
+ *                        `=---='
+ * 
+ * 
+ *      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 
+ *            佛祖保佑     永不宕机     永无BUG
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tian Ye - Homepage</title>
+
+  <!--
+    - favicon
+  -->
+  <!-- <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon"> -->
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+    
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/ty.png" alt="Yi Tian" width="80" style="border-radius: 20px;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Yi Tian">Ye Tian</h1>
+
+          <p class="title">Assistant Professor</p>
+          <!-- <br> -->
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:tianye.ucas@gmail.com" class="contact-link">tianye.ucas@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+(886) 0911020235</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Taiwan, CHINA</address>
+            </div>
+
+          </li>
+
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://scholar.google.com/citations?user=K7LwtK0AAAAJ" class="social-link">
+                <ion-icon name="school-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/sqsssq" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+                <ion-icon name="document-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Misc</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link-language-en>中/Eng</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+            <p>
+                I am Prof. Dr. Ye Tian.
+            </p>
+            <p>
+                I'm a Assistant Professor at Department of Information and Library Science, Tamkang University.
+            </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Research Interests</h3>
+          
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Library and Information Science Education</h4>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-interaction.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Linked Data & Knowledge Organization</h4>
+
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/SOCIAL MEDIA MARKETING.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Social Media and Scholarly Communication</h4>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/library.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Library Assessment</h4>
+
+              </div>
+
+            </li>
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Recent News</h3>
+
+          <div class="news-div has-news-scrollbar">
+            <ol class="news-list">
+                <li class="news-item">
+                    <span class="news-date">[2024/5]</span>
+                    <span class="news-content">🎉Our paper '' is accepted to !</span>
+                </li>
+            </ol>
+          </div>
+
+          
+          
+        </section>
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">National Taiwan University,Taiwan</h4>
+
+              <span>2019.09 - 2024.06 | Research with Prof. Kuang-hua Chen</span>
+
+              <p class="timeline-text">
+                Ph.D., Library and Information Science
+              </p>
+
+            </li>
+
+             	
+
+	
+
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">University of Chinese Academy of Sciences,China</h4>
+  
+                <span>2012.09 - 2015.01</span>
+  
+                <p class="timeline-text">
+                    M.S. in Library and Information Science
+                </p>
+  
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Northwest Normal University,China</h4>
+  
+                <span>2008.09 - 2012.06</span>
+  
+                <p class="timeline-text">
+                    B.S. in Electronic Information Engineering
+                </p>
+  
+              </li>
+
+          </ol>
+
+        </section>
+        
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Professional Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Assistant professor</h4>
+
+              <span>2024.07 - present</span>
+
+              <p class="timeline-text">
+                Department of Information and Library Science, Tamkang University
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Librarian</h4>
+
+              <span>2018.11 - 2023.06</span>
+
+              <p class="timeline-text">
+                Shanghai University of Finance and Economics, China
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">HR Specialist</h4>
+
+              <span>2015.11 - 2018.10</span>
+
+              <p class="timeline-text">
+                Shanghai University of Finance and Economics, China
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Librarian</h4>
+  
+                <span>2015.06 - 2015.10</span>
+  
+                <p class="timeline-text">
+                    Shanghai Jiao Tong University, China
+                </p>
+  
+              </li>
+
+          </ol>
+
+          
+
+        </section>
+        <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+  
+              <h3 class="h3">Academic Services</h3>
+            </div>
+  
+            <ol class="timeline-list">
+  
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Academic Organization for</h4>
+  
+                <p class="timeline-text">
+                  - Member of the Young Scholars Committee, Shanghai Library Association
+                </p>
+                <p class="timeline-text">
+                  - Member of the Science Education Committee, Shanghai Library Association
+                </p>
+  
+              </li>
+  
+                <li class="timeline-item">
+  
+                  <h4 class="h4 timeline-item-title">Journal Reviewer for</h4>
+    
+                    <p class="timeline-text">
+                        - Journal of Librarianship & Information Science
+                    </p>
+                        <p class="timeline-text">
+                        - Information Development
+                    </p>
+                        <p class="timeline-text">
+                        - Computer Networks
+                    </p>
+                        <p class="timeline-text">
+                        - Document,Information & Knowledge
+                    </p>
+                        <p class="timeline-text">
+                        - Journal of Library and Information Science in Agriculture
+                    </p>
+                        <p class="timeline-text">
+                        - New Century Library
+                        
+                    </p>
+    
+                </li>
+  
+            </ol>
+  
+          </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="research">
+
+        <header>
+          <h2 class="h2 article-title">Research</h2>
+        </header>
+
+        <section class="blog-posts">
+            <h2 style="margin:  40px 0px 30px 0px;">Research Summary and Future Plan</h2>
+
+        <ol class="news-list" style="line-height: 1.6;">
+            <li class="news-item">
+                <span class="news-content"><span class="highlighted-item">Major Research Contributions</span>
+                <p style="line-height: 1.6;">
+                - During my doctoral studies, I focused on analyzing the LIS labor market using NLP(natural language processing) techniques, pioneering research on alternative academic careers in the global LIS field. I also conducted research on scholarly communication and open government data. The library academic evaluation project I led was widely reported  in mainland China.
+                </p>
+                <p style="line-height: 1.6;">
+                - During my master's degree, I focused on semantic retrieval of institutional repositories using linked data and developed a name disambiguation algorithm. I was also among the first scholars in China's library field to explore Data Citation standards.
+                </p>
+                </span>
+            </li>
+
+            <li class="news-item">
+                <span class="news-content"><span class="highlighted-item">Future Work Plans</span>
+                <p style="line-height: 1.6;">
+                - Teach core courses in Knowledge Organization, Information Behavior, and Research Data Management.
+                </p>
+                <p style="line-height: 1.6;">
+                - Establish a Taiwan LIS workforce database and regularly release labor market reports, making the data openly available to encourage secondary research.
+                </p>
+                <p style="line-height: 1.6;">
+                -  Build a scholarly communication platform to integrate important academic information in the field and disseminate it to practitioners through new media platforms.
+                </p>
+                <p style="line-height: 1.6;">
+                - Ensure the production of at least one academic paper per year.
+                </p>
+                <p style="line-height: 1.6;">
+                - Assist in recruiting students from mainland China across all levels in the future.
+                </p>
+                </span>
+            </li>
+        </ol>
+            <h2 style="margin: 40px 0px 30px 0px;">Journal Publication</h2>
+            <!-- <br> -->
+            <p>(25 papers published, including 10 in major indexed journals (5 SSCI, 1 TSSCI, 3 CSSCI) as first/corresponding author since 2019)</p>
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+                <a href="#">
+                  <div class="blog-banner-box">
+  
+                  <figure>
+                    <img src="./assets/images/publication/1.png.jpg" loading="lazy">
+                  </figure>
+                  </div>
+                  <div class="blog-content" style="margin-top: 0px;">
+  
+                    <h3 class="h4 blog-item-title">Alternative-academic careers of LIS
+                        in China: Trends, challenges, and
+                        opportunities</h3>
+  
+                    <p class="blog-text">
+                        <span class="normal-span" style="font-weight: bold;">Ye Tian</span> and Kuang-Hua Chen
+                        
+                      </p>
+                      <p class="blog-text">
+                      
+                      <span class="normal-span" style="font-style: italic;">Journal of Librarianship & Information Science</span>, Accepted.
+                    </p>
+  
+                  </div>
+  
+                </a>
+              </li>
+          </ul>
+          <br>
+          <ol class="news-list">
+            <li class="news-item">
+                <span class="news-content"><span class="highlighted-item">Ye, T.</span>, Chen, K. H. (Accepted). Alternative-Academic Careers in Library and Information Science: Evolutionary Patterns and Prospects in the Chinese Context. <span class="highlighted-item">Humanities and Social Sciences Communications.</span></span>
+            </li>
+        </ol>
+        <!-- <hr style="margin: 20px 0px;"> -->
+        <h2 style="margin: 40px 0px 30px 0px;">Conference Publication</h2>
+
+        <ol class="news-list">
+            <li class="news-item">
+                 
+                <span class="news-content"><span class="highlighted-item">Ye, T.</span>(2022). Exploring New Academic Media as a Channel for Academic Communication. <span class="highlighted-item">In Proceedings of the 2nd Conference of LIS and Practices (CoLISP 2022).</span> (In Chinese).</span>
+            </li>
+        </ol>
+
+        <!-- <hr style="margin: 20px 0px;"> -->
+        <h2 style="margin:  40px 0px 30px 0px;">Presentation</h2>
+
+        <ol class="news-list">
+            <li class="news-item">
+                 
+                <span class="news-content"><span class="highlighted-item">Ye, T.</span>"Study and Practice of Library Academic Ability Ranking." Presented at the "Intelligent Technology and Scientific Research Evaluation" conference, hosted by Shanghai Institutes for Nutrition and Health, Chinese Academy of Sciences, Shanghai, China, May 9, 2023.</span>
+            </li>
+        </ol>
+        <!-- <hr style="margin: 20px 0px;"> -->
+        <h2 style="margin:  40px 0px 30px 0px;">Patent</h2>
+
+        <ol class="news-list">
+            <li class="news-item">
+                Dongsheng Wang,Tao Chen,Jingui Liu,<span class="news-content"><span class="highlighted-item">Ye Tian.</span>. A Data Diversion and Data Transformation Method Based on Semantic Web Ontology: CN201710061645.X[P]. Granted on August 27,2019.
+                </span>
+            </li>
+
+            <li class="news-item">
+                <span class="news-content"><span class="highlighted-item">Ye Tian.</span>. Information Analysis Server (Specialized for Library Information Analysis),[P] Application Number: 2014300253345.
+                </span>
+            </li>
+        </ol>
+
+        <h2 style="margin:  40px 0px 30px 0px;">Funded Project</h2>
+
+        <ol class="news-list">
+            <li class="news-item">
+                <span class="news-content"><span class="highlighted-item">Ye Tian.</span>.(Principal Investigator), "Multi-dimensional Information Collection and Analysis of New Media", Commissioned by East China Normal University, Project Duration: 2019.12 - 2020.06
+                </span>
+            </li>
+
+            <li class="news-item">
+                <span class="news-content"><span class="highlighted-item">Ye Tian.</span>. (Principal Investigator), "Research on Library Scholars' Evaluation Based on Linked Data", Commissioned by East China Normal University, Project Duration: 2017.12 - 2018.12
+                </span>
+            </li>
+        </ol>
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="misc">
+
+        <header>
+          <h2 class="h2 article-title">Misc</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+          
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=HOM9eTTG6aIKep6Rkqrd90aqYfPiPpmNU8HXOKlU57w&cl=ffffff&w=a"></script> -->
+
+</body>
+
+</html>
